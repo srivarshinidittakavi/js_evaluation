@@ -1,7 +1,7 @@
+
 function createBankAccount() {
   let balance = 0
   const transactions = []
-
   return {
     deposit(amount) {
       if (typeof amount !== 'number' || amount <= 0) return 'Invalid deposit amount'
