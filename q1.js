@@ -24,11 +24,3 @@ function createBankAccount() {
     }
   }
 }
-const account = createBankAccount()
-
-console.log(account.deposit(1000))
-console.log(account.withdraw(200))
-console.log(account.withdraw(1000))
-console.log(account.deposit(-50))
-console.log(account.getBalance())
-console.log(account.getTransactionHistory())
